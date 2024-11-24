@@ -11,7 +11,7 @@ services:
     environment:
       - "PUID=1234"
       - "PGID=567"
-      - "LAN_NETWORK=192.168.1.0/24"
+      - "LAN_NETWORK=10.10.0.0/24"
       - "QBT_LEGAL_NOTICE=confirm"
     image: "docker.io/tenseiken/qbittorrent-wireguard:latest"
     ipc: "private"
